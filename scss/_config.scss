@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  }
+.button{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding: 15px 80px;
+  border-radius: 50px;
+  background: linear-gradient(to bottom right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  &:hover{
+    transform: scale(0.98);
+  }
+  }
+$raleway: 'Raleway', sans-serif;
+$opensans: 'Open Sans', sans-serif;

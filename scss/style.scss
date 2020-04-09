@@ -249,3 +249,127 @@ header{
   }
 }
 
+@media (max-width: 900px){
+  header{
+    font-size: 0.8rem;
+    width: 92%;
+    padding-top: 40px;
+    img{
+      width: 30%;
+    }
+    ul li{
+      margin: auto 10px;
+    }
+  }
+  .showcase{
+    padding-top: 40px;
+
+    h1{
+      font-size: 1.6rem;
+      width: 85%;
+      line-height: 2.5rem;;
+    }
+    h2{
+      width: 85%;
+      font-size: 0.95rem;
+    }
+  }
+  .illustration1{
+    width: 85%;
+  }
+  .background{
+    height: 120px;
+    margin-bottom: -110px;;
+  }
+
+  .section1{
+    grid-template-columns: auto;
+    width: 100%;
+    .section1Item{
+      width: 85%;
+    }
+  }
+
+  .section2{
+    flex-direction: column;
+    width: 85%;
+
+    .illustration2{
+      width: 100%;
+    }
+
+    .section2Text{
+      width: 100%;
+      margin: 50px 0 0;
+
+      h3{
+        width: 100%;
+        font-size: 1.27rem;
+      }
+      p{
+        font-size: 0.98rem;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .section3{
+    width: 97%;
+
+    .section3Cards{
+      flex-direction: column;
+    }
+    
+    .section3Card{
+      
+      padding: 30px 25px 20px 25px;
+
+      p{
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .earlyAccess{
+    width: 85%;
+
+    h2{
+      font-size: 1.3rem;
+    }
+
+    p{
+      width: 100%;
+    }
+
+    input[type=email]{
+      width: 100%;
+      margin: 0 0 20px;
+    }
+
+    input[type=submit]{
+      width: 100%;
+    }
+  }
+
+  .section4{
+    flex-direction: column;
+    width: 85%;
+    margin: 100px auto 0;
+    .location{
+      width: 100%;
+      margin: 60px 0 25px;
+
+      p{
+        line-height: 1.5rem;
+        
+      }
+    }
+    .grouped{
+      margin-bottom: 50px;
+    }
+    ul{
+      margin-bottom: 30px;
+    }
+  }
+}
+

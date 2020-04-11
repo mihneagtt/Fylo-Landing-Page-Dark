@@ -184,8 +184,29 @@ header{
     line-height: 20px;
     padding-bottom: 40px;
   }
+  form{
+    position: relative;
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+  form.error input[type=email]{
+    border: 2px red solid;
+  }
+  .errorText{
+    font-size: 0.8rem;
+    font-family: $opensans;
+    position: absolute;
+    color: red;
+    bottom: -25px;
+    padding-left: 40px;
+    display: none;
+  }
+  form.error .errorText{
+    display: block;
+  }
   input[type=email]{
-    width: 50%;
+    width: 100%;
     border: none;
     font-family: 'Raleway', sans-serif;
     color: #000;
@@ -215,6 +236,7 @@ header{
       outline: none;
     }
   }
+
 }
 .section5{
   background: linear-gradient(to top, hsl(216, 53%, 9%) 75%, hsl(218, 28%, 13%) 25%);
@@ -340,7 +362,10 @@ header{
     p{
       width: 100%;
     }
-
+    form{
+      flex-direction: column;
+      width: 100%;
+    }
     input[type=email]{
       width: 100%;
       margin: 0 0 20px;
